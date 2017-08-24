@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/px170"
+    android:layout_height="@dimen/px170"
+    android:background="@android:color/white"
+    >
+	<!-- 加载图片只需一句话  -->
+    <reco.frame.tv.view.TvImageView
+        android:id="@+id/tiv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/play"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:singleLine="true"
+        android:textSize="@dimen/px30"
+        android:textColor="@color/white"
+        android:background="@drawable/icon_home_two"/>
+
+</RelativeLayout>
